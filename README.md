@@ -1,10 +1,3 @@
-
-ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΣ ΣΥΣΤΗΜΑΤΟΣ
-ΕΡΓΑΣΙΑ ΙΙ
-
-ΔΑΝΑΗ ΚΑΡΑΓΕΩΡΓΟΠΟΥΛΟΥ
-sdi2000067
-
 **How to Run**
 -   Server:  ./bin/jobExecutorServer <port> <num_workers> <buffer_size>
     Example:
