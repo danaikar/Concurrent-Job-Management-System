@@ -6,7 +6,7 @@ A **multi-threaded job execution system** that efficiently handles task manageme
 
 ## How to Run
 
-### ** Start the Server**
+### **Start the Server**
 To launch the **Job Executor Server**, run: ./bin/jobExecutorServer <num_workers> <buffer_size> 
 
 Example: ./bin/jobExecutorServer 5000 5 
