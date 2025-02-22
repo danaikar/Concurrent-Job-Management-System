@@ -56,9 +56,9 @@ Each **Controller Thread** is responsible for **processing commands** from a con
 ## Command Handling  
 
 ### **`issueJob` Execution Process**  
-1️⃣ The **Controller Thread** receives the job request.  
-2️⃣ The **job is queued**, and a **Worker Thread** is notified.  
-3️⃣ The **Worker Thread executes the job** and sends the result back to the **Commander** via a **response thread**.  
+1.The **Controller Thread** receives the job request.  
+2️.The **job is queued**, and a **Worker Thread** is notified.  
+3️.The **Worker Thread executes the job** and sends the result back to the **Commander** via a **response thread**.  
 
 ### **Handling Other Commands (`poll`, `exit`, `setConcurrency`, `stop`)**  
 - Directly **processed** by the **Controller Thread**.  
